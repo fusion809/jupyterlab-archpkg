@@ -3,3 +3,4 @@ src
 *.gz
 *.xz
 *.ipynb
+.ipynb_checkpoints
