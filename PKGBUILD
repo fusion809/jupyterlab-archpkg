@@ -1,8 +1,8 @@
 # Maintainer: Antonio Rojas <arojas@archlinux.org>
 
 pkgname=jupyterlab
-pkgver=14333
-_commit=69e3e95768b3a214ecf1e3682e0eadce4248459e
+pkgver=14347
+_commit=61f775fddeb83c264a823c4904be8eba030dc00f
 pkgrel=1
 pkgdesc="JupyterLab computational environment"
 arch=(any)
@@ -12,7 +12,7 @@ makedepends=(python-setuptools nodejs python-recommonmark)
 depends=(jupyterlab_server)
 source=($pkgname-${_commit}.tar.gz::"https://github.com/jupyterlab/jupyterlab/archive/${_commit}.tar.gz"
 jupyter-lab.desktop)
-sha256sums=('06372fc3d08f43d336df5b42cb8fd4db91c30182f7f9160add0e71a812c2557c'
+sha256sums=('21ce13b5f1e194a45d78c6b9af0afa0051a9e9b8e0049f1712fad1b6e524686d'
             'd7ed2287b823a78b7fe05194180ad9b4602657d5e32b8ed548418039451c0434')
 
 build() {
