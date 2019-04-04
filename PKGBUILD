@@ -1,4 +1,4 @@
-# Maintainer: Antonio Rojas <arojas@archlinux.org>
+# Maintainer: Brenton Horne <brentonhorne77@gmail.com>
 
 pkgname=jupyterlab
 pkgver=14566
