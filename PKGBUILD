@@ -1,8 +1,8 @@
 # Maintainer: Brenton Horne <brentonhorne77@gmail.com>
 
 pkgname=jupyterlab
-pkgver=16896
-_commit=9aa420582a59d81f7cde2abc16aa870bf8060ceb
+pkgver=16898
+_commit=d42744013f7793a5e001923fae34cbdcede063f0
 pkgrel=1
 pkgdesc="JupyterLab computational environment"
 arch=(any)
@@ -12,7 +12,7 @@ makedepends=(python-setuptools nodejs python-recommonmark)
 depends=(jupyterlab_server)
 source=($pkgname-${_commit}.tar.gz::"https://github.com/jupyterlab/jupyterlab/archive/${_commit}.tar.gz"
 jupyter-lab.desktop)
-sha256sums=('16c5a8e10967a85c80be8fb3091ac42cbc7a9c211e2d6315aeb456904e311ad7'
+sha256sums=('f229bb735a7710edc98a08c4c293f3762496ca96dd00e7ceb6d7003f0f205ba5'
             'd7ed2287b823a78b7fe05194180ad9b4602657d5e32b8ed548418039451c0434')
 
 build() {
